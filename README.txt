@@ -1,21 +1,9 @@
-# Эксперты по затоплению — статический лендинг с ChatKit
+# Эксперты по затоплению — ChatKit версия
 
-Этот пакет — готовый к деплою на Vercel/любой хостинг.
+Workflow ID: wf_68fc024308608190a73c4a3010d0ae9c0473908472fa1005
+API Key: domain_pk_690027260e748190a85c0f1b0fd6c000006a61662ba354d7
 
-## Что внутри
-- `index.html` — единый файл со стилями и блоком чата.
-- Встроенный ChatKit-компонент `<openai-chatkit>` с workflow-id: `wf_68fc024308608190a73c4a3010d0ae9c0473908472fa1005` (версия `draft`).
-
-## Деплой на Vercel (без Git)
-1. Зайдите на https://vercel.com → New Project → Import Project → Manual Deploy.
-2. Перетащите архив .zip.
-3. Framework: **Other**, Output directory: оставить пустым.
-4. Нажмите Deploy, получите домен вида `https://…vercel.app`.
-
-## Обязательно в ChatKit
-В ChatKit Quickstart добавьте домен сайта в **Allowed domains** (например, `https://имя.vercel.app`).
-
-## Кастомизация
-- Заменить заголовок «Эксперты по затоплению».
-- Изменить список преимуществ.
-- Поменять `version` на `production`, когда будете готовы.
+## Деплой
+1. Создайте репозиторий и загрузите эти файлы.
+2. На Vercel: Add New Project → Other → Deploy.
+3. Добавьте ваш домен в ChatKit Allowed domains.
