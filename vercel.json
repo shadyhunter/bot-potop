@@ -3,10 +3,7 @@
     {
       "source": "/(.*)",
       "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src * data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.openai.com https://cdn.platform.openai.com data: blob:; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.openai.com https://cdn.platform.openai.com data: blob:; style-src * 'unsafe-inline'; connect-src *; img-src * data: blob:;"
-        }
+        { "key": "Content-Security-Policy", "value": "" }
       ]
     }
   ]
