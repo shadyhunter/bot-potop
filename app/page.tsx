@@ -1,4 +1,4 @@
-import MyChat from "./components/MyChat";
+import { MyChat } from "./components/MyChat";
 
 export default function Page() {
   return (
