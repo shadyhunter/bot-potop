@@ -1,0 +1,17 @@
+{
+  "name": "bot-potop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@openai/chatkit-react": "latest",
+    "openai": "latest",
+    "next": "14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
